@@ -1,0 +1,392 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="Ei-RFp5wVFR3Ab3a4oas">
+    <mxGraphModel dx="1427" dy="859" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e2msxCUirsIqMiFcEJN2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="130" y="110" width="630" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-2" value="(a) 数据预处理与模态对齐" style="whiteSpace=wrap;strokeWidth=2;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="165" y="130" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-3" value="光学影像Sentinel-2预处理" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="210" y="180" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-3" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-5" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-4" vertex="1">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-6" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;大气校正&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-4" vertex="1">
+          <mxGeometry x="40" width="160" height="30" as="geometry">
+            <mxRectangle width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-7" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-3" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-8" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-7" vertex="1">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-9" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;云层掩膜&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-7" vertex="1">
+          <mxGeometry x="40" width="160" height="30" as="geometry">
+            <mxRectangle width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-3" vertex="1">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-11" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-10" vertex="1">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-12" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;辐射校正&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-10" vertex="1">
+          <mxGeometry x="40" width="160" height="30" as="geometry">
+            <mxRectangle width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-3" vertex="1">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-14" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-13" vertex="1">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-15" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;几何校正&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-13" vertex="1">
+          <mxGeometry x="40" width="160" height="30" as="geometry">
+            <mxRectangle width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-16" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="594" y="720" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-17" value="SAR 影像 Sentinel-1预处理" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="487" y="180" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-18" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-17" vertex="1">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-19" value="1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-18" vertex="1">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-20" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;斜距校正&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-18" vertex="1">
+          <mxGeometry x="40" width="160" height="30" as="geometry">
+            <mxRectangle width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-17" vertex="1">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-22" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-21" vertex="1">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-23" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;地形校正&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-21" vertex="1">
+          <mxGeometry x="40" width="160" height="30" as="geometry">
+            <mxRectangle width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-24" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-17" vertex="1">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-25" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-24" vertex="1">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-26" value="&lt;span style=&quot;font-size: 12px; text-align: center;&quot;&gt;几何配准&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="e2msxCUirsIqMiFcEJN2-24" vertex="1">
+          <mxGeometry x="40" width="160" height="30" as="geometry">
+            <mxRectangle width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-27" value="统一空间参考框架" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="350" y="420" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.427;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-24" target="e2msxCUirsIqMiFcEJN2-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="380" as="sourcePoint" />
+            <mxPoint x="650" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-29" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=north;" parent="1" vertex="1">
+          <mxGeometry x="280" y="330" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-30" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="131" y="578" width="630" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-31" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="426" y="510" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-32" value="(b) 双流非对称编码器" style="whiteSpace=wrap;strokeWidth=2;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="140.5" y="590" width="199" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-33" value="光学编码器&lt;div&gt;基于视觉 Transformer&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="313" y="629" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-34" value="捕捉长距离依赖关系, 语义结构, 光照影像阴影变化" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="268" y="759" width="170" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-35" value="SAR 编码器&lt;div&gt;使用 ConvNeXt&lt;/div&gt;&lt;div&gt;&amp;nbsp;网络&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="484" y="629" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-36" value="提取建筑立面散射, 雷达阴影, 几何畸变等特征" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="458.5" y="759" width="161" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-37" value="光学多尺度特征" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="267" y="880" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-33" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178" y="749" as="sourcePoint" />
+            <mxPoint x="368" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="718" y="759" as="sourcePoint" />
+            <mxPoint x="540" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-40" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="980" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-41" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1050" width="630" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-42" value="(c) 多尺度跨模态融合" style="whiteSpace=wrap;strokeWidth=2;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="140.5" y="1070" width="199" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-43" value="SAR多尺度特征" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="458.5" y="880" width="161.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-44" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="519" y="980" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-34" target="e2msxCUirsIqMiFcEJN2-37" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="840" as="sourcePoint" />
+            <mxPoint x="240" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-36" target="e2msxCUirsIqMiFcEJN2-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="780" as="sourcePoint" />
+            <mxPoint x="880" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-47" value="光学特征与 SAR 特征融合" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="309" y="1099" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-48" value="跨模态注意力" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="351" y="1215" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-49" value="输出统一表示的多模态深度特征" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="299" y="1331" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-47" target="e2msxCUirsIqMiFcEJN2-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-48" target="e2msxCUirsIqMiFcEJN2-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-52" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=east;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="770" y="1222" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-53" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="836" y="1053" width="630" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-54" value="(d) 物理引导损失" style="whiteSpace=wrap;strokeWidth=2;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="880" y="1070" width="130" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-55" value="光照几何模型" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="936" y="1111" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-56" value="雷达成像几何模型" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1182" y="1111" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-57" value="计算理论阴影区域" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="920" y="1227" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-58" value="约束模型保持物理一致性" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="1227" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-59" value="附加损失模块" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1067" y="1355" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-60" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-55" target="e2msxCUirsIqMiFcEJN2-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-56" target="e2msxCUirsIqMiFcEJN2-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-57" target="e2msxCUirsIqMiFcEJN2-59" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="924" y="1355" as="sourcePoint" />
+            <mxPoint x="974" y="1305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-63" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1146" y="1281" width="150" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-64" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="1146" y="980" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-65" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="836" y="578" width="630" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-66" value="自监督预训练" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1062.5" y="590" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-67" value="监督微调" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1062.5" y="810" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-68" value="使用海量全球数据" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="909.5" y="690" width="188" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-69" value="掩码重建, 自蒸馏, 跨模态一致性学习" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1158.5" y="690" width="200" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-70" value="得到建筑物高度预测泛化能力" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="996" y="890" width="257" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-71" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-67" target="e2msxCUirsIqMiFcEJN2-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-72" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.445;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-66" target="e2msxCUirsIqMiFcEJN2-68" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1008.5" y="578" as="sourcePoint" />
+            <mxPoint x="998.5" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-73" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-68" target="e2msxCUirsIqMiFcEJN2-67" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="898.5" y="858" as="sourcePoint" />
+            <mxPoint x="948.5" y="808" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-74" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="1122" y="748" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-75" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" parent="1" vertex="1">
+          <mxGeometry x="1142" y="510" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-76" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#3399FF;" parent="1" vertex="1">
+          <mxGeometry x="840" y="115" width="630" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-77" value="(e) 自监督预训练与监督微调" style="whiteSpace=wrap;strokeWidth=2;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="860" y="587.5" width="179" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-78" value="(f) 多区域实验验证" style="whiteSpace=wrap;strokeWidth=2;strokeColor=#FFFFFF;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="850" y="121" width="178.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-79" value="不同地理环境实验" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="850" y="162" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-80" value="不同建筑风格实验" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1072" y="162" width="158" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-81" value="不同成像条件实验" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="162" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-82" value="评估高度预测精度, 跨区域迁移能力和稳定性" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="246" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-83" value="消融实验" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="394" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-84" value="可视化分析" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1202" y="396" width="122" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-85" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-81" target="e2msxCUirsIqMiFcEJN2-82" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1384" y="326" as="sourcePoint" />
+            <mxPoint x="1434" y="276" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1404" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-86" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="923" y="216" as="sourcePoint" />
+            <mxPoint x="1034" y="285" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="923" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-87" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.441;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-80" target="e2msxCUirsIqMiFcEJN2-82" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="874" y="406" as="sourcePoint" />
+            <mxPoint x="924" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-88" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.444;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-82" target="e2msxCUirsIqMiFcEJN2-83" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="874" y="366" as="sourcePoint" />
+            <mxPoint x="924" y="316" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1164" y="356" />
+              <mxPoint x="1055" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-89" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="e2msxCUirsIqMiFcEJN2-84" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1164" y="356" as="sourcePoint" />
+            <mxPoint x="1304" y="336" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1263" y="356" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-90" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.565;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="e2msxCUirsIqMiFcEJN2-69" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1131.85" y="660" as="sourcePoint" />
+            <mxPoint x="1272.1499999999999" y="679.0139999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1181.85" y="660" />
+              <mxPoint x="1271.85" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-92" value="使用高精度 LiDAR DSM 数据" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1233" y="808" width="167" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-93" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="e2msxCUirsIqMiFcEJN2-92" target="e2msxCUirsIqMiFcEJN2-67" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1365" y="777" as="sourcePoint" />
+            <mxPoint x="1415" y="727" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-94" value="                 ┌─────────────────┐&#xa;                 │  Student (θ_s)  │&#xa;Input I────────►│     Encoder      │─────────► zs&#xa;                 └─────────────────┘&#xa;                            │&#xa;                            │ EMA update&#xa;                            ▼&#xa;                 ┌─────────────────┐&#xa;                 │ Teacher (θ_t)   │&#xa;                 │ (EMA of θ_s)    │────────► zt&#xa;                 └─────────────────┘&#xa;&#xa; Distillation Loss:  L = || zs - zt ||²&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1678" width="156" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="e2msxCUirsIqMiFcEJN2-95" value="┌─────────────────┐&#xa;                 │  Student (θ_s)  │&#xa;Input I────────►│     Encoder      │─────────► zs&#xa;                 └─────────────────┘&#xa;                            │&#xa;                            │ EMA update&#xa;                            ▼&#xa;                 ┌─────────────────┐&#xa;                 │ Teacher (θ_t)   │&#xa;                 │ (EMA of θ_s)    │────────► zt&#xa;                 └─────────────────┘&#xa;&#xa;&#xa; Distillation Loss:  L = || zs - zt ||²" style="text;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1087.9966259765624" y="1628.003251953125" width="341" height="224" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
