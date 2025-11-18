@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="29.0.3">
   <diagram name="Page-1" id="Ei-RFp5wVFR3Ab3a4oas">
-    <mxGraphModel dx="1427" dy="859" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2605" dy="1318" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -379,12 +379,6 @@
             <mxPoint x="1365" y="777" as="sourcePoint" />
             <mxPoint x="1415" y="727" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="e2msxCUirsIqMiFcEJN2-94" value="                 ┌─────────────────┐&#xa;                 │  Student (θ_s)  │&#xa;Input I────────►│     Encoder      │─────────► zs&#xa;                 └─────────────────┘&#xa;                            │&#xa;                            │ EMA update&#xa;                            ▼&#xa;                 ┌─────────────────┐&#xa;                 │ Teacher (θ_t)   │&#xa;                 │ (EMA of θ_s)    │────────► zt&#xa;                 └─────────────────┘&#xa;&#xa; Distillation Loss:  L = || zs - zt ||²&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="750" y="1678" width="156" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="e2msxCUirsIqMiFcEJN2-95" value="┌─────────────────┐&#xa;                 │  Student (θ_s)  │&#xa;Input I────────►│     Encoder      │─────────► zs&#xa;                 └─────────────────┘&#xa;                            │&#xa;                            │ EMA update&#xa;                            ▼&#xa;                 ┌─────────────────┐&#xa;                 │ Teacher (θ_t)   │&#xa;                 │ (EMA of θ_s)    │────────► zt&#xa;                 └─────────────────┘&#xa;&#xa;&#xa; Distillation Loss:  L = || zs - zt ||²" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1087.9966259765624" y="1628.003251953125" width="341" height="224" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
